@@ -1,0 +1,10 @@
+body{ color: aliceblue; background-color:rgb(74, 78, 78) ; border: 10px solid white; border-radius: 10px; font-family: monospace; font-size: large;}
+
+.logo{float: left;}
+.nav-items{float: right;}
+.quote{text-align: center; animation-name: raju; animation-duration: 2s;  position: relative;}
+@keyframes raju {
+    0%{color: aliceblue; font-size: large; top: 0px;}
+    50%{top: 500px; font-size: xx-small;}
+    100%{color: brown; font-size: large;  top: 0px;}
+}
