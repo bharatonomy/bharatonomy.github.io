@@ -1,8 +1,17 @@
-body{ color: aliceblue; background-color:rgb(74, 78, 78) ; border: 10px solid white; border-radius: 10px; font-family: monospace; font-size: large;}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-.logo{float: left;}
-.nav-items{float: right;}
+body{ color: aliceblue; background-color:rgb(74, 78, 78) ; font-family: monospace; font-size: large;}
+
+
+.name{ font-family: Staatliches; font-size: 10vw; float: right; position: relative; top: 20vh; padding-right: 5vw;}
+
+.logo{float: left; position: relative; top: 20vh; padding-left: 5vw;}
+.nav{float: right; position: relative; top: 30vh;}
+.nav-items{float: right; text-align: justify; padding-inline: 5vw;}
+
 .quote{text-align: center; animation-name: raju; animation-duration: 2s;  position: relative;}
+
+
 @keyframes raju {
     0%{color: aliceblue; font-size: large; top: 0px;}
     50%{top: 500px; font-size: xx-small;}
