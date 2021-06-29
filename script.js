@@ -5,5 +5,4 @@ function transitionOnLoad() {
     
    trans.setAttribute("class", "loading");
 
-   document.getElementById('name')
 }

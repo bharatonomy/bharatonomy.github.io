@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-body{ color: aliceblue; background-color:rgb(74, 78, 78) ; font-family: monospace; font-size: large; transition: 12s;}
+body{ color: orange; background-color:rgb(74, 78, 78) ; font-family: monospace; font-size: large; transition: 2s;}
 
 
-.name{ font-family: Staatliches; font-size: 10vw; float: right; position: relative; top: 20vh; padding-right: 5vw;}
+.name{ font-family: Staatliches; font-size: 200px; float: right; position: relative; top: 20vh; padding-right: 5vw; z-index: 1;}
 
 .logo{float: left; position: relative; top: 20vh; padding-left: 5vw;}
 .nav{float: right; position: relative; top: 50vh; right: 10vh;left: 40vw; }
@@ -19,6 +19,7 @@ color: black;
 }
 .loading{
 background: #000;
+
 }
 
 .quote{text-align: center; animation-name: raju; animation-duration: 2s;  position: relative;}
@@ -27,6 +28,11 @@ background: #000;
 
 @keyframes raju {
     0%{color: aliceblue; font-size: large; top: 0px;}
-    50%{top: 500px; font-size: xx-small;}
+    50%{top: 10px; font-size: xx-small;}
     100%{color: brown; font-size: large;  top: 0px;}
+}
+
+video{
+    z-index: 0;
+    position: fixed;
 }
