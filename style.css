@@ -6,35 +6,25 @@ body{ color: aliceblue; background-color:rgb(74, 78, 78) ; font-family: monospac
 .name{ font-family: Staatliches; font-size: 10vw; float: right; position: relative; top: 20vh; padding-right: 5vw;}
 
 .logo{float: left; position: relative; top: 20vh; padding-left: 5vw;}
-.nav{float: right; position: relative; top: 25vh; right: 10vh;}
-.nav-items{float: right; padding-inline: 5vw; margin: 10px;}
+.nav{float: right; position: relative; top: 50vh; right: 10vh;left: 40vw; }
+.nav-items{float: right; position: relative; padding: 1vw; margin: 10px; background-color: rgba(127, 255, 212, 0); border: 5px solid cyan; color: cyan; font-weight: bold; font-size: 30px;}
 .nav-items:hover{
-    font-size: larger;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: cyan;
+border-color: black;
+color: black;
+    border-radius: 20px;
     transition-duration: 0.5s;
 }
 .loading{
-animation-name: loaded;
-animation-duration: 10s;
+background: #000;
 }
 
 .quote{text-align: center; animation-name: raju; animation-duration: 2s;  position: relative;}
 
 
 
-
-@keyframes loaded {
-    0%{background-color: black;}
-    10%{background-color: blue;}
-    20%{background-color: green;}
-    30%{background-color: red;}
-    40%{background-color: yellow;}
-    50%{background-color: orange;}
-    60%{background-color: purple;}
-    70%{background-color: gold;}
-    80%{background-color: silver;}
-    90%{background-color: cyan;}
-100%{background-color: burlywood;}
-}
 @keyframes raju {
     0%{color: aliceblue; font-size: large; top: 0px;}
     50%{top: 500px; font-size: xx-small;}
