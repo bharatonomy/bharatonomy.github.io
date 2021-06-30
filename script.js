@@ -1,8 +1,3 @@
-function transitionOnLoad() {
-
-   const trans = document.getElementsByTagName('body')[0];
-
-    
-   trans.setAttribute("class", "loading");
-
+function darkMode() {
+   document.getElementById('body').classList.toggle('darkNlight');
 }
