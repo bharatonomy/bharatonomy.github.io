@@ -1,0 +1,23 @@
+{
+  "name": "bhanu",
+  "version": "1.0.0",
+  "description": "Intializing the package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBharatMishra/TheBharatMishra.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "blog"
+  ],
+  "author": "Bharat Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBharatMishra/TheBharatMishra.github.io/issues"
+  },
+  "homepage": "https://github.com/TheBharatMishra/TheBharatMishra.github.io#readme"
+}

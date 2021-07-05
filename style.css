@@ -1,15 +1,13 @@
 body{display: flex;
-flex-flow: column;
-align-items: center;
-justify-content: center;
 }
 
 .darkNlight{background-color: rgb(41, 41, 41);
 }
 
-a{text-decoration: none;
-color: greenyellow;
+a{text-decoration: none;color: greenyellow;
+
 }
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; position: relative; color: to right, blue, green;}
 
 .blogposts{box-shadow: 10px 10px 5px black;
 border: 1px solid black;
@@ -18,5 +16,21 @@ display: flex;
 flex-flow: column;
 align-items: center;
 justify-content: center;
-width: 50vw;
+width: 30vw;
 }
+.blogimage{
+display: flex;
+align-items: center;
+size: inherit;
+
+}
+img{
+   width: 30vw
+}
+#interact-main{
+    background-image: linear-gradient(to right, red, blue);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+*{box-sizing: border-box;}
