@@ -8,7 +8,7 @@ excerpt: |
 feature_text: |
   ## New Post for science
   The modern pot still is a descendant of the alembic, an earlier distillation device
-feature_image: "https://picsum.photos/2560/600?image=733"
+feature_image: ""
 image: "https://picsum.photos/2560/600?image=733"
 ---
 
