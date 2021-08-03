@@ -1,1 +1,0 @@
-Hey, guys there is nothing to read herr just my peronal blog. If you like some front end thing you can use it for yourself too.
