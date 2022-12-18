@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 ---
+
 <div class="d-flex mt-5">
   {% for post in site.posts %}
 <div class="card m-2 float-left" style="width:30vw" >
@@ -14,6 +15,6 @@ permalink: /blog/
   </div>
 </div>
 
-  {% endfor %}
+{% endfor %}
 
 </div>
