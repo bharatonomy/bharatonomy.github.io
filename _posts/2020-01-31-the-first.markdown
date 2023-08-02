@@ -1,7 +1,0 @@
----
-layout: post
-title: "The First"
-date:  2020-01-31 09:23:33 +0530
-categories: miscallaneous
----
-Hey this is my first post.
