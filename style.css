@@ -1,0 +1,37 @@
+* {
+	color: palevioletred;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 0;
+	background-color: rgb(25, 25, 25);
+	height: 100vh;
+	width: 100vw;
+}
+a {
+	color: palevioletred;
+	text-decoration: none;
+}
+
+div {
+	text-align: start;
+	position: fixed;
+	top: 0;
+}
+hr {
+	border: 2px solid palevioletred;
+	width: 90vw;
+}
+section {
+}
+article {
+	text-align: center;
+	width: 80vw;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 1vh;
+}
