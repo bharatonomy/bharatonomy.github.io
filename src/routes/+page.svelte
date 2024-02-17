@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	// import { res } from '$lib/chat';
 </script>
 
 <h1>Bharat Mishra</h1>
-<p>About <a href="{base}/about">kit.svelte.dev</a> to read the documentation</p>
+<p>Hi, my name is <a href="{base}/about">Bharat Mishra</a> to read the documentation</p>
+
+<!-- <p>{res}</p> -->
