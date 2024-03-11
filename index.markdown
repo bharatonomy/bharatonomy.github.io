@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-# title: "Bharat Mishra"
+title: "Bharat Mishra"
 ---
 
-<!-- Hello everyone how are you -->
+<h1>
+{{Hello everyone how are you | downcase}}
+</h1>
